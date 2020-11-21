@@ -2,7 +2,8 @@ package com.company;
 
 public class Cars {
     private Color color;
-    Fuel fuel = new Fuel();
+    private Fuel fuel;
+    //Fuel fuel = new Fuel();
 
     public Cars(Color color, Fuel fuel) {
         this.color = color;
